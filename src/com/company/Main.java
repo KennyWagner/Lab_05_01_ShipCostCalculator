@@ -18,7 +18,7 @@ public class Main
         //end if
         //Output “Total cost: “ + (price + shipping)
 
-        double price = 110.0;
+        double price = 80.0;
         double shipping = 0;
 
         if (price >= 100)
@@ -28,7 +28,7 @@ public class Main
         else
         {
             shipping = price * 0.02;
-            System.out.println("Your total cost is " + price  + shipping + "$. Your item costs " + price + "$, and your shipping costs " + shipping + "$");
+            System.out.println("Your total cost is " + (price  + shipping) + "$. Your item costs " + price + "$, and your shipping costs " + shipping + "$");
         }
     }
 }
